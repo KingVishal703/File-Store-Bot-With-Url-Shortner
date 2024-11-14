@@ -82,7 +82,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url=""),
+                        InlineKeyboardButton("Support Group", url="https://t.me/"),
                         InlineKeyboardButton("YouTube Channel", url="https://youtube.com")
                     ]
                 ]
@@ -362,7 +362,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url=""),
+                        InlineKeyboardButton("Support Group", url="https://t.me/"),
                         InlineKeyboardButton("YouTube Channel", url="https://youtube.com")
                     ]
                 ]
@@ -412,7 +412,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Updates Channel", url="https://t.me/+RA6sWEx5hYw2NTE1"),
-                        InlineKeyboardButton("Support Group", url="")
+                        InlineKeyboardButton("Support Group", url="https://t.me/")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
